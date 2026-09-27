@@ -1,0 +1,12 @@
+# 行尾统一 —— 本仓库惯例：源码与文档一律 LF。
+#
+# 为什么需要显式声明：Windows 上 core.autocrlf=true 很常见，它会让下一次
+# git checkout 把 LF 文件改写成 CRLF，凭空产生几十个文件的假 diff。
+# .gitattributes 优先级高于 core.autocrlf，故此处钉死即可，无需改本地 config。
+* text=auto eol=lf
+
+# 二进制：不做文本 diff、不做行尾转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

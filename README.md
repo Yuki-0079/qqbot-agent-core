@@ -125,3 +125,13 @@ python mcp-servers/botkb/kb_search.py "检索评分"
 
 - Python 3.9+（无第三方必装依赖）
 - 可选：`Pillow`（`view_image` 图片处理）；opencode（真实 LLM 层；开发环境版本 1.18.x）
+
+## 相关项目
+
+- [`social-bot-persona-memory`](https://github.com/Yuki-0079/social-bot-persona-memory)
+  —— 配套的「群成员语言风格蒸馏 + 五层记忆架构」系统（框架无关的 skill 形态）：
+  本仓库上下文工程所消费的群记忆 / 名册数据，即由这类系统产出。
+
+## License
+
+[MIT](LICENSE)
