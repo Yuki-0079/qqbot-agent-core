@@ -1,0 +1,35 @@
+[
+  {
+    "id": "demo-t-001",
+    "domain": "示例",
+    "chapter": "第一章 检索入门",
+    "heading": "检索评分",
+    "concepts": ["检索评分", "score", "匹配权重"],
+    "text": "检索评分为每条候选条目计算 0-100 的分数：概念命中 90、标题命中 88、章节命中 86、正文命中 60、适用场景命中 55。分数越高越相关；同分并列时按库内顺序展示。",
+    "confidence": "示例条目",
+    "scope_note": "演示检索引擎的评分机制",
+    "critique_application": "可用来解释某条命中为何排在第一"
+  },
+  {
+    "id": "demo-t-002",
+    "domain": "示例",
+    "chapter": "第一章 检索入门",
+    "heading": "上下文注入",
+    "concepts": ["上下文注入", "context injection", "按需注入"],
+    "text": "上下文注入的核心是「按需」：只在窗口内容真实命中时才注入对应资料（如无图不注入图片清单、无命中词不注入知识条目），以控制 prompt 体积并降低噪声。",
+    "confidence": "示例条目",
+    "scope_note": "演示按需注入策略",
+    "critique_application": ""
+  },
+  {
+    "id": "demo-t-003",
+    "domain": "示例",
+    "chapter": "第二章 会话管理",
+    "heading": "会话交接轮换",
+    "concepts": ["会话轮换", "交接记忆", "session rotation"],
+    "text": "群会话达到轮数阈值或长时间不活跃时，先用当前会话生成一份 300-500 字的交接摘要，再轮换到新会话；摘要注入新会话首轮，保证记忆不中断、上下文不无限膨胀。",
+    "confidence": "示例条目",
+    "scope_note": "演示会话交接机制",
+    "critique_application": ""
+  }
+]

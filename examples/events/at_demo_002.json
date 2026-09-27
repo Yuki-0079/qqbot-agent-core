@@ -1,0 +1,9 @@
+{
+  "group_id": "100000001",
+  "user_id": "100000004",
+  "nickname": "演示群员甲",
+  "message": "[图片:demo_0001.jpg](_images/demo_0001.jpg) 这张图里是什么？",
+  "context": [
+    {"user_id": "100000003", "nickname": "群主甲", "text": "演示图片事件：走「图片清单 → 占位图预取」链路"}
+  ]
+}

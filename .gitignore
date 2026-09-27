@@ -1,0 +1,17 @@
+# ---- 运行时目录（本地生成，不入库；仅仓库根目录）----
+/pending_replies/
+/logs/
+/images/
+/BotMemory/
+
+# ---- 本地配置与凭据（红线：绝不入库）----
+/bot_whitelist.json
+/bot_img_ref.json
+napcat_token.txt
+saucenao_key.txt
+*.token
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.sanitize_tmp

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "demo-w-001",
+    "domain": "示例",
+    "chapter": "第一章 结构",
+    "heading": "场景与转折",
+    "concepts": ["场景", "转折", "scene", "turning point"],
+    "text": "场景是叙事的基本单位：一个场景内应发生一次价值转变；若场景结束时局面与开始时相同，通常说明该场景可以被压缩或删去。（示例条目）",
+    "confidence": "示例条目",
+    "scope_note": "演示写作库条目",
+    "critique_application": ""
+  },
+  {
+    "id": "demo-w-002",
+    "domain": "示例",
+    "chapter": "第一章 结构",
+    "heading": "冲突升级",
+    "concepts": ["冲突", "升级", "conflict escalation"],
+    "text": "冲突升级指阻碍力量随情节推进不断增强；若冲突在开场即达峰值，后续段落会失去张力来源。（示例条目）",
+    "confidence": "示例条目",
+    "scope_note": "演示写作库条目",
+    "critique_application": ""
+  }
+]

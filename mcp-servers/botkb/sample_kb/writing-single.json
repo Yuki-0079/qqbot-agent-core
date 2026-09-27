@@ -1,0 +1,18 @@
+[
+  {
+    "id": "demo-ws-001",
+    "domain": "示例",
+    "chapter": "叙述视角",
+    "concepts": ["叙述视角", "point of view"],
+    "text": "（示例条目）叙述视角决定读者与故事信息的距离：第一人称贴近但受限；第三人称灵活，但对距离的控制要求更高。本文件演示「特殊布局源」：无 heading 字段，检索时用 concepts[0] 兜底；用 certainty 字段替代 confidence。",
+    "certainty": "示例"
+  },
+  {
+    "id": "demo-ws-002",
+    "domain": "示例",
+    "chapter": "节奏",
+    "concepts": ["节奏", "pacing"],
+    "text": "（示例条目）节奏由信息密度与场景长度共同决定；连续高密度场景之间需要呼吸段落。",
+    "certainty": "示例"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "characters": {
+    "card_demo_alpha": {
+      "name": "演示甲",
+      "work": "演示作品",
+      "appearance": "银色短发、蓝色眼睛",
+      "features": "示例角色（演示「角色名册注入」）"
+    },
+    "demo-beta": {
+      "name": "演示乙",
+      "work": "演示作品",
+      "appearance": "黑色长发、绿色眼睛",
+      "features": "示例角色"
+    }
+  }
+}
